@@ -95,4 +95,17 @@
                 start (optional) → Starting position (default: 0).
                 length (optional) → Length of the string to search.
     */
+
+    # string position functions
+    /*
+        strpos(string, substring, start) -> Finds the first occurrence of a substring in a string (case-sensitive)
+            Parameters:
+                string → The main string.
+                substring → The text to find.
+                start (optional) → The position to start the search.
+        strrpos(string, substring, start) -> Finds the last occurrence of a substring (case-sensitive).
+        stripos(string, substring, start) -> Same as strpos(), but case-insensitive
+        strripos(string, substring, start) -> Same as strrpos(), but case-insensitive.
+    */
+
 ?>
