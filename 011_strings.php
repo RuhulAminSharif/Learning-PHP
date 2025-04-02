@@ -77,4 +77,22 @@
         ucwords(string) -> Converts the first letter of each word in a string to uppercase.
         lcfirst(string) -> Converts the first character of a string to lowercase.
     */
+
+    # string length and count functions
+    /*
+        strlen(string) -> Returns the length of a string
+        str_word_count(string, return) -> Counts the number of words in a string.
+            Parameters:
+                string → The input string.
+                return (optional):
+                    0 (default) → Returns the word count.
+                    1 → Returns an array of words.
+                    2 → Returns an associative array with word positions.
+        substr_count( string, substring, start, length ) -> Counts how many times a substring appears in a string.
+            Parameters:
+                string → The main string.
+                substring → The substring to count.
+                start (optional) → Starting position (default: 0).
+                length (optional) → Length of the string to search.
+    */
 ?>
