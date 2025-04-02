@@ -68,4 +68,13 @@
         Hel-loW-orl-d-
 
     */
+
+    # uppercase and lowercase functions
+    /*
+        strtolower(string) -> Converts all characters in a string to lowercase.
+        strtoupper(string) -> Converts all characters in a string to uppercase.
+        ucfirst(string) -> Converts the first character of a string to uppercase.
+        ucwords(string) -> Converts the first letter of each word in a string to uppercase.
+        lcfirst(string) -> Converts the first character of a string to lowercase.
+    */
 ?>
