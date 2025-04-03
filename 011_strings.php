@@ -126,4 +126,23 @@
                 string → The main string.
                 char_list → A set of characters to look for.
     */
+
+    # string substr functions
+    /*
+        substr(string, start, length) -> extracts a portion of a string based on a starting position and an optional length.
+        Parameters:
+            string → The input string.
+            start → The position to start extracting.
+                Positive number → Start from that position (0-based index).
+                Negative number → Start counting from the end of the string.
+            length (optional) → The number of characters to extract.
+                Positive number → Extract up to length characters.
+                Negative number → Remove length characters from the end.
+                Omitted → Extract until the end of the string.
+
+        Extract a username from an email:
+            substr("user@example.com", 0, strpos("user@example.com", "@"));
+        Extract file extension:
+            substr("document.pdf", -3);
+    */
 ?>
