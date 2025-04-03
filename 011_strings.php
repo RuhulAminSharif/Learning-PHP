@@ -108,4 +108,22 @@
         strripos(string, substring, start) -> Same as strrpos(), but case-insensitive.
     */
 
+    # string search functions
+    /*
+        strstr(string, search, before_search) -> Finds the first occurrence of a substring and returns the rest of the string.
+            Parameters:
+                string → The main string.
+                search → The substring to find.
+                before_search (optional, true/false):
+                    false (default) → Returns the portion from the first occurrence onward.
+                    true → Returns the portion before the first occurrence.
+
+        stristr(string, search, before_search) -> Same as strstr(), but case-insensitive.
+        strchr(string, search, before_search) -> It is an exact alias of strstr()
+        strrchr(string, search) -> Finds the last occurrence of a character and returns the rest of the string.
+        strpbrk(string, char_list) -> Finds the first occurrence of any character from a set.
+            Parameters:
+                string → The main string.
+                char_list → A set of characters to look for.
+    */
 ?>
